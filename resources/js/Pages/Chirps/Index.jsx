@@ -39,7 +39,7 @@ export default function Index({ auth, chirps }) {
                 </form>
                 <div className="mt-6 bg-white shadow-sm rounded-lg divide-y">
                     {chirps?.map((chirp) => {
-                        return <Chirp chirp={chirp} />;
+                        return <Chirp key={chirp.id} chirp={chirp} />;
                     })}
                 </div>
             </div>
