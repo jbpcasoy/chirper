@@ -56,7 +56,7 @@ class ChirpController extends Controller
      */
     public function show(Chirp $chirp)
     {
-        //
+        // create a laravel show function for Chirp model
     }
 
     /**
